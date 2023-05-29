@@ -1,0 +1,130 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	border:2px solid gray;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px;
+	display:flex;
+	gap:10px;
+	margin-top:250px;
+}
+.btn_primary{
+	border:none;
+	background-color:#0984e3;
+	color:white;
+	padding:6px 16px;
+	border-radius:5px;
+	font-size:bold;
+	text-decoration:none;
+	
+}
+.btn_primary:hover{
+	background-color:#74b9ff;
+	cursor:pointer;
+}
+.btn_secondary{
+	border:none;
+	background-color:#636e72;
+	color:white;
+	padding:15px;
+	border-radius:5px;
+	font-size:bold;
+	text-decoration:none;
+}
+.btn_secondary:hover{
+	background-color:#b2bec3;
+	cursor:pointer;
+}
+.btn_success{
+	border:none;
+	background-color:#009432;
+	color:white;
+	padding:15px;
+	border-radius:5px;
+	font-size:bold;
+	text-decoration:none;
+}
+.btn_success:hover{
+	background-color:#78e08f;
+	cursor:pointer;
+}
+.btn_danger{
+	border:none;
+	background-color:#e55039;
+	color:white;
+	padding:15px;
+	border-radius:5px;
+	font-size:bold;
+	text-decoration:none;
+}
+.btn_danger:hover{
+	background-color:#ff7f50;
+	cursor:pointer;
+}
+.btn_warning{
+	border:none;
+	background-color:#ffa502;
+	color:white;
+	padding:15px;
+	border-radius:5px;
+	font-size:bold;
+	text-decoration:none;
+}
+.btn_warning:hover{
+	background-color:#eccc68;
+	cursor:pointer;
+}.btn_info{
+	border:none;
+	background-color:#1e90ff;
+	color:white;
+	padding:15px;
+	border-radius:5px;
+	font-size:bold;
+	text-decoration:none;
+}
+.btn_info:hover{
+	background-color:#70a1ff;
+	cursor:pointer;
+}
+.btn_light{
+	border:none;
+	background-color:#f1f2f6;
+	color:black;
+	padding:15px;
+	border-radius:5px;
+	font-size:bold;
+	text-decoration:none;
+}
+.btn_light:hover{
+	background-color:#dfe4ea;
+	cursor:pointer;
+}
+.btn_dark{
+	border:none;
+	background-color:black;
+	color:white;
+	padding:15px;
+	border-radius:5px;
+	font-size:bold;
+	text-decoration:none;
+}
+.btn_dark:hover{
+	background-color:#130f40;
+	cursor:pointer;
+}
+.link{
+	cursor:pointer;
+	color:#22a6b3;
+	border:none;
+	background-color:transparent;
+	text-decoration:underline;
+}
+.link:hover{
+	color:#686de0;
+	
+}
